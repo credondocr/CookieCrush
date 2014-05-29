@@ -17,7 +17,6 @@
 		CF00AD6419356BAD00BE319F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF00AD6219356BAD00BE319F /* Main.storyboard */; };
 		CF00AD6719356BAD00BE319F /* RWTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF00AD6619356BAD00BE319F /* RWTViewController.m */; };
 		CF00AD6A19356BAD00BE319F /* RWTMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CF00AD6919356BAD00BE319F /* RWTMyScene.m */; };
-		CF00AD6C19356BAD00BE319F /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = CF00AD6B19356BAD00BE319F /* Spaceship.png */; };
 		CF00AD6E19356BAE00BE319F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF00AD6D19356BAE00BE319F /* Images.xcassets */; };
 		CF00AD7519356BAE00BE319F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF00AD7419356BAE00BE319F /* XCTest.framework */; };
 		CF00AD7619356BAE00BE319F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF00AD4E19356BAD00BE319F /* Foundation.framework */; };
@@ -40,6 +39,8 @@
 		CF00ADB01935C20900BE319F /* Mining by Moonlight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF00ADAA1935C20900BE319F /* Mining by Moonlight.mp3 */; };
 		CF00ADB11935C20900BE319F /* Scrape.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF00ADAB1935C20900BE319F /* Scrape.wav */; };
 		CF00ADB41935C4F500BE319F /* RWTCookie.m in Sources */ = {isa = PBXBuildFile; fileRef = CF00ADB31935C4F500BE319F /* RWTCookie.m */; };
+		CF1B1A421936CD3A0094BEDF /* RWTChain.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1B1A411936CD3A0094BEDF /* RWTChain.m */; };
+		CFFB24C619370ED500DD0D5E /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CFFB24C519370ED500DD0D5E /* Grid.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +70,6 @@
 		CF00AD6619356BAD00BE319F /* RWTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTViewController.m; sourceTree = "<group>"; };
 		CF00AD6819356BAD00BE319F /* RWTMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTMyScene.h; sourceTree = "<group>"; };
 		CF00AD6919356BAD00BE319F /* RWTMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTMyScene.m; sourceTree = "<group>"; };
-		CF00AD6B19356BAD00BE319F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		CF00AD6D19356BAE00BE319F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CF00AD7319356BAE00BE319F /* CookieCrunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieCrunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF00AD7419356BAE00BE319F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -96,6 +96,9 @@
 		CF00ADAB1935C20900BE319F /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Scrape.wav; sourceTree = "<group>"; };
 		CF00ADB21935C4F500BE319F /* RWTCookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTCookie.h; sourceTree = "<group>"; };
 		CF00ADB31935C4F500BE319F /* RWTCookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTCookie.m; sourceTree = "<group>"; };
+		CF1B1A401936CD3A0094BEDF /* RWTChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTChain.h; sourceTree = "<group>"; };
+		CF1B1A411936CD3A0094BEDF /* RWTChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTChain.m; sourceTree = "<group>"; };
+		CFFB24C519370ED500DD0D5E /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,14 +160,14 @@
 		CF00AD5619356BAD00BE319F /* CookieCrunch */ = {
 			isa = PBXGroup;
 			children = (
+				CF1B1A401936CD3A0094BEDF /* RWTChain.h */,
+				CF1B1A411936CD3A0094BEDF /* RWTChain.m */,
 				CF00ADB21935C4F500BE319F /* RWTCookie.h */,
 				CF00ADB31935C4F500BE319F /* RWTCookie.m */,
-				CF00ADA51935C20900BE319F /* Sounds */,
 				CF00ADA21935B21700BE319F /* RWTSwap.h */,
 				CF00ADA31935B21700BE319F /* RWTSwap.m */,
 				CF00AD9F1935999900BE319F /* RWTTile.h */,
 				CF00ADA01935999900BE319F /* RWTTile.m */,
-				CF00AD94193596B900BE319F /* Levels */,
 				CF00AD91193575D100BE319F /* RWTLevel.h */,
 				CF00AD92193575D100BE319F /* RWTLevel.m */,
 				CF00AD5F19356BAD00BE319F /* RWTAppDelegate.h */,
@@ -174,7 +177,9 @@
 				CF00AD6619356BAD00BE319F /* RWTViewController.m */,
 				CF00AD6819356BAD00BE319F /* RWTMyScene.h */,
 				CF00AD6919356BAD00BE319F /* RWTMyScene.m */,
-				CF00AD6B19356BAD00BE319F /* Spaceship.png */,
+				CFFB24C519370ED500DD0D5E /* Grid.atlas */,
+				CF00AD94193596B900BE319F /* Levels */,
+				CF00ADA51935C20900BE319F /* Sounds */,
 				CF00AD8C1935700C00BE319F /* Sprites.atlas */,
 				CF00AD6D19356BAE00BE319F /* Images.xcassets */,
 				CF00AD5719356BAD00BE319F /* Supporting Files */,
@@ -316,6 +321,7 @@
 				CF00AD9B193596B900BE319F /* Level_1.json in Resources */,
 				CF00AD9E193596B900BE319F /* Level_4.json in Resources */,
 				CF00ADAF1935C20900BE319F /* Ka-Ching.wav in Resources */,
+				CFFB24C619370ED500DD0D5E /* Grid.atlas in Resources */,
 				CF00ADAE1935C20900BE319F /* Error.wav in Resources */,
 				CF00ADB11935C20900BE319F /* Scrape.wav in Resources */,
 				CF00AD9D193596B900BE319F /* Level_3.json in Resources */,
@@ -324,7 +330,6 @@
 				CF00AD6E19356BAE00BE319F /* Images.xcassets in Resources */,
 				CF00ADAC1935C20900BE319F /* Chomp.wav in Resources */,
 				CF00ADAD1935C20900BE319F /* Drip.wav in Resources */,
-				CF00AD6C19356BAD00BE319F /* Spaceship.png in Resources */,
 				CF00AD9C193596B900BE319F /* Level_2.json in Resources */,
 				CF00AD6419356BAD00BE319F /* Main.storyboard in Resources */,
 				CF00ADB01935C20900BE319F /* Mining by Moonlight.mp3 in Resources */,
@@ -352,6 +357,7 @@
 				CF00AD6719356BAD00BE319F /* RWTViewController.m in Sources */,
 				CF00AD6119356BAD00BE319F /* RWTAppDelegate.m in Sources */,
 				CF00ADA41935B21700BE319F /* RWTSwap.m in Sources */,
+				CF1B1A421936CD3A0094BEDF /* RWTChain.m in Sources */,
 				CF00ADB41935C4F500BE319F /* RWTCookie.m in Sources */,
 				CF00ADA11935999900BE319F /* RWTTile.m in Sources */,
 				CF00AD5D19356BAD00BE319F /* main.m in Sources */,
@@ -561,6 +567,7 @@
 				CF00AD8619356BAE00BE319F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF00AD8719356BAE00BE319F /* Build configuration list for PBXNativeTarget "CookieCrunchTests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +576,7 @@
 				CF00AD8919356BAE00BE319F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

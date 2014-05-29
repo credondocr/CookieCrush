@@ -20,6 +20,4 @@ static const NSUInteger NumCookieTypes = 6;
 - (NSString *)spriteName;
 - (NSString *)highlightedSpriteName;
 
-
-
 @end
